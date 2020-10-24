@@ -1,2 +1,3 @@
 # Music
-Musical stuff I would like to publish. 
+
+Musical stuff I would like to publish.
