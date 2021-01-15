@@ -4,6 +4,8 @@ Begun on 2021/01/07 this is my second self-made arrangement.
 The Flohwalzer is a very simple piece on the piano
 with the purpose to allow non-pianists to troll pianists.
 It is also quite fun on the guitar.
+Finally it is my first piece that is completely bare of
+notes on empty strings (unless you want to put a capo on bar 1)!
 
 Markus-Hermann Koch, mhk@markuskoch.eu, 2021/01/07.
 
@@ -38,7 +40,7 @@ melA = {
   des'4 <b'\3 f''\2>\staccato <b'\3 f''\2>\staccato es''8 des''\3
   des'4 <b'\3 f''\2>\staccato <b'\3 f''\2>\staccato es''8 des''\3
   des'4 <b'\3 f''\2>\staccato es'\5 <b'\3 f''\2>\staccato
-  ges' <bes'\4 ges''\2>\staccato <bes'\4 ges''\2>\staccato es''8\3 des''\3 \break
+  ges'\5 <bes'\4 ges''\2>\staccato <bes'\4 ges''\2>\staccato es''8\3 des''\3 \break
 }
 %< -------------------------------------------------------------------
 
