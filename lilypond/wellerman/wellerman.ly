@@ -16,6 +16,7 @@ http://lilypondcookbook.com/post/75545613870/fretted-strings-1-guitar-basics
 https://timmurphy.org/2012/06/22/writing-guitar-tabs-with-lilypond/
 
 Useful to play MIDI files: apt-get install wildmidi
+Or timidity: http://ccrma.stanford.edu/planetccrma/man/man1/timidity.1.html
 If you ever have repeats and want them unfolded for MIDI:
 Prefix "\unfoldRepeats" to your score.
 %}
@@ -45,7 +46,7 @@ melAc = { <c e a>8 <c e a> <c\3 e\2>4 <c\3 e\2>4. e8 }
 basAc = { a1 }
 
 % a:m
-melAd = { <e, a>4 <e a>4 <e a>4 <e a>8 c' e4 e e2 }
+melAd = { <e, a>4 <e a>4 <e a>4 <e a>8 c' e4 e e4. e8 }
 basAd = { a1 a1 }
 
 % e1 a1
@@ -75,7 +76,7 @@ basBe = { e,4 e e e a1 }
 %< -------------------------------------------------------------------
 
 text = \lyricmode { There once was a ship that put to sea, the name of the ship was the
-"\"Bi" -- lly o' "Tea\"." The wind blew up, and her bow dipped down. Blow, me bul -- ly boys blow!
+"\"Bi" -- lly o' "Tea\"." The wind blew up, and her bow dipped down. Oh, blow, me bul -- ly boys, blow!
 Soon may the We ller man come, to bring us su gar and tea and rum.
 One day, when the toun gin' is done,
 We'll take our leave and go!
