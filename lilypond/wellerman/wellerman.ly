@@ -60,15 +60,15 @@ melBa = { <c f a c f>2 <c f a c f>4. <c f a c f>8 <e g c e>8 <e g c e>8 <e g c e
 basBa = {f2 f4. f8 c'8 c8 c4 c2}
 
 % d:m
-melBb = {<a, d f>4 <a d f>4 <a d f>8 <a d f>8 <a d f>4 }
+melBb = {<a, d f>4 <a d>4 <a d>8 <a d>8 <a d f>4 }
 basBb = {d4 d4 d8 d8 d4}
 
 % a:m
-melBc = {<c e a>4 <c\3 e\2> <c\3 e\2>2}
-basBc = {a1}
+melBc = {<e a c e a>4 <e\5 a\4 c\3 e\2> <e\5 a\4 c\3 e\2>2}
+basBc = {a4\6 a\6 a2\6}
 
 % f, c  One day, when the
-melBd = { <c, f a c f>2 <c f a c f>4 <c f a c f>8 <c f a c f>8 <e g c e>8 <e g c e>8 <e g c e>4 <e g c e>4. <e g c e>8 }
+melBd = { <c f a c f>2 <c f a c f>4 <c f a c f>8 <c f a c f>8 <e g c e>8 <e g c e>8 <e g c e>4 <e g c e>4. <e g c e>8 }
 basBd = {f2 f4 f8 f8 c'8 c8 c4 c4. c8 }
 
 melBe = { <b e gis b e>4 <b e gis c>4 <b e gis d'>4 <b e gis b>4 <e a>1 }
@@ -123,6 +123,7 @@ primerosNames = \chordmode
 \score
 {
 % Uncomment the next line if you want to compile into a .midi file.
+% Making a 6MB .wav from the tiny midi: timidity -T 115 wellerman.midi -Ow
 % \midi{}
 <<
   \new ChordNames {
