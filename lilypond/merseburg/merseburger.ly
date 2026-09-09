@@ -138,7 +138,7 @@ primerosNames = \chordmode
 \score
 {
 % Uncomment the next line if you want to compile into a .midi file.
-%\midi{}
+\midi{}
 <<
   \new ChordNames {
     \set chordChanges = ##t
